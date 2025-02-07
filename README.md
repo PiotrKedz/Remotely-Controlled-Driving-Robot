@@ -1,29 +1,29 @@
-#Remotely Controlled Driving Platform
+
 This project is a remotely operated robotic platform powered by an ESP32 microcontroller, controlled via a Python-based GUI over WebSocket communication. The robot features DC motors for movement and an ultrasonic sensor for obstacle detection.
 
 Features:
-✅ Remote Control – Move the robot using keyboard inputs via a WebSocket-based Python GUI.
-✅ Obstacle Detection – Uses an ultrasonic sensor to prevent collisions.
-✅ ESP32-Based – WiFi-enabled microcontroller for wireless operation.
-✅ Arduino Integration – ESP32 is programmed using the Arduino framework.
+1. Remote Control – Move the robot using keyboard inputs via a WebSocket-based Python GUI.
+2. Obstacle Detection – Uses an ultrasonic sensor to prevent collisions.
+3. ESP32-Based – WiFi-enabled microcontroller for wireless operation.
+4. Arduino Integration – ESP32 is programmed using the Arduino framework.
 
 Hardware Requirements:
-ESP32-WROOM-32 (In my case: General Driver for Robots)
-HC-SR04 Ultrasonic Sensor
-RS775 DC Motors + Motor Driver
-Li-ion Battery Pack
+1. ESP32-WROOM-32 (In my case: General Driver for Robots)
+2. HC-SR04 Ultrasonic Sensor
+3. RS775 DC Motors + Motor Driver
+4. Li-ion Battery Pack
 
 Software Requirements:
-Python 3.12 (Other versions may work, but there could be library dependency issues.)
-Arduino IDE 2.3.3.0
-All required libraries included in both codes
+1. Python 3.12 (Other versions may work, but there could be library dependency issues.)
+2. Arduino IDE 2.3.3.0
+3. All required libraries included in both codes
 
 Setup Instructions:
-Install the ESP32 board package in Arduino IDE.
-Upload the ESP32_websocket.ino script to the ESP32.
-Ensure the correct WiFi credentials are set in the code.
-Once the ESP32 IP address appears in the serial monitor, copy it and paste it into the appropriate line in the Python code.
-Run pythoncontroller.py to start controlling the robot.
+1. Install the ESP32 board package in Arduino IDE.
+2. Upload the ESP32_websocket.ino script to the ESP32.
+3. Ensure the correct WiFi credentials are set in the code.
+4. Once the ESP32 IP address appears in the serial monitor, copy it and paste it into the appropriate line in the Python code.
+5. Run pythoncontroller.py to start controlling the robot.
 
 Additional Info about libraries included:
 nest-asyncio --> 1.5.8

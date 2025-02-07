@@ -5,8 +5,8 @@
 using namespace websockets;
 
 // WiFi credentials
-const char* ssid = "androidap123";
-const char* password = "latwehaslo";
+const char* ssid = "//name of your wifi";
+const char* password = "//your password";
 
 // WebSocket server
 WebsocketsServer server;

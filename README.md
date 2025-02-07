@@ -33,3 +33,5 @@ ArduinoWebsockets by Gil --> 0.5.4
 Additonal Borards Manager URLs in Arduno settings:
 https://dl.espressif.com/dl/package_esp32_index.json
 https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+![fotka2](https://github.com/user-attachments/assets/b889c403-3bd1-45b2-9d6d-d609fd53b611)
+![fotka3](https://github.com/user-attachments/assets/3590856d-3216-43c8-89af-5ac38025b6ba)
